@@ -38,8 +38,8 @@ class SignupActivity : AppCompatActivity() {
        etConfirm = findViewById(R.id.etConfirm)
        btnSignup = findViewById(R.id.btnSignup)
        tvLogin = findViewById(R.id.tvLogin)
-       btnSignup.setOnClickListener {
-           val intent = Intent(this,PlanActivity::class.java)
+       tvLogin.setOnClickListener {
+           val intent = Intent(this,LoginActivity::class.java)
            startActivity(intent)
        }
        btnSignup.setOnClickListener {
