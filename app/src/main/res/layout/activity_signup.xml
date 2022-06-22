@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#100202"
     tools:context=".SignupActivity">
 
     <com.google.android.material.textfield.TextInputLayout
@@ -13,11 +14,11 @@
         android:layout_marginStart="32dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="32dp"
-        app:startIconDrawable="@drawable/ic_baseline_person_24"
         app:boxBackgroundColor="@android:color/transparent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:startIconDrawable="@drawable/ic_baseline_person_24">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/etFirstname"
@@ -33,11 +34,11 @@
         android:layout_marginStart="32dp"
         android:layout_marginTop="45dp"
         android:layout_marginEnd="32dp"
-        app:startIconDrawable="@drawable/ic_baseline_person_24"
         app:boxBackgroundColor="@android:color/transparent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tilFirstname">
+        app:layout_constraintTop_toBottomOf="@+id/tilFirstname"
+        app:startIconDrawable="@drawable/ic_baseline_person_24">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/etLastname"
@@ -53,11 +54,11 @@
         android:layout_marginStart="32dp"
         android:layout_marginTop="45dp"
         android:layout_marginEnd="32dp"
-        app:startIconDrawable="@drawable/ic_baseline_email_24"
         app:boxBackgroundColor="@android:color/transparent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tilLastname">
+        app:layout_constraintTop_toBottomOf="@+id/tilLastname"
+        app:startIconDrawable="@drawable/ic_baseline_email_24">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/etSignupEmail"
@@ -74,12 +75,12 @@
         android:layout_marginStart="32dp"
         android:layout_marginTop="45dp"
         android:layout_marginEnd="32dp"
-        app:startIconDrawable="@drawable/ic_baseline_lock_24"
         app:boxBackgroundColor="@android:color/transparent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tilSignupEmail"
-        app:passwordToggleEnabled="true">
+        app:passwordToggleEnabled="true"
+        app:startIconDrawable="@drawable/ic_baseline_lock_24">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/etSignupPassword"
